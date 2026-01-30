@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmaalWeb Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: #121212; /* Matches your main proxy background */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 5rem;
+            font-weight: 800;
+            letter-spacing: -3px;
+            margin: 0;
+            /* Subtle animation to make it look high-end */
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        h1 span {
+            color: #007bff; /* Your accent color */
+            text-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Smaal<span>Web</span></h1>
+    </div>
+
+</body>
+</html>
